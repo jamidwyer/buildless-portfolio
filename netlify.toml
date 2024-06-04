@@ -1,0 +1,10 @@
+[build]
+    command = "npm i && rollup -c"
+    publish = "dist"
+
+[[headers]]
+    for = "/*"
+    [headers.values]
+      	cache-control = '''
+    	max-age=0,
+	    must-revalidate'''
