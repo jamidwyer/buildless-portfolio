@@ -10,9 +10,10 @@ export class PfH1 extends LitElement {
       color: var(--raisin-black);
       display: block;
       font-weight: 400;
-      font-size: 3.2rem;
+      font-size: 2.1rem;
       line-height: 1.2;
-      padding: 0.5rem;
+      padding: 1rem;
+      margin: 0;
     }
   `;
 

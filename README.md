@@ -1,6 +1,6 @@
-# buildless portfolio
+# light portfolio
 
-My portfolio site, built with lit-element, css, html, JS, and not much else!
+My portfolio site, with minimal bells/whistles.
 
 ## Develop
 
@@ -12,20 +12,18 @@ http://localhost:8000/
 
 ## Roadmap
 
-- rollup https://modern-web.dev/docs/building/rollup-plugin-html/
-- deploy to s3
 - add media queries where things look weird
 - break ul into smaller components
 - generalize item fields
 - card to own component
 - css to its own file
 - more css vars
-- prettier
 - lint
 - lit-element component library
-- deploy to netlify?
 - deploy to cloudflare?
 - deploy to eks (as an exercise)?
+- deploy to s3
 - typescript
 - optimize srcset
 - tests
+- dark mode
