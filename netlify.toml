@@ -7,4 +7,13 @@
     [headers.values]
       	cache-control = '''
     	max-age=0,
+    	s-max-age=0,
+	    must-revalidate'''
+      	cdn-cache-control = '''
+    	max-age=0,
+    	s-max-age=0,
+	    must-revalidate'''
+        netlify-cdn-cache-control = '''
+    	max-age=0,
+    	s-max-age=0,
 	    must-revalidate'''
