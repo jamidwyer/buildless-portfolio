@@ -1,0 +1,77 @@
+{
+  "title": "Jami Dwyer's Portfolio",
+  "content": "Making data useful.",
+  "gallery": [
+    {
+      "title": "Discogs",
+      "copy": "Ported legacy frontend code to shared React component library.",
+      "image": "../images/discogs.png",
+      "url": "https://www.discogs.com/master/291615-Daft-Punk-TRON-Legacy-Original-Motion-Picture-Soundtrack"
+    },
+    {
+      "title": "Nike By You",
+      "copy": "Contributed to React and Babylon.js 3-D shoe designer.",
+      "image": "../images/nike.png",
+      "url": "https://www.nike.com/u/custom-v2k-by-you-10001753/1716501363749"
+    },
+    {
+      "title": "Walmart Lists",
+      "copy": "Built React lists for schools and non-profits.",
+      "image": "../images/walmart.png",
+      "url": "https://www.walmart.com/nonprofits"
+    },
+    {
+      "title": "Transactive Grid App",
+      "copy": "Built React Native app to monitor and trade energy use.",
+      "image": "../images/tag.jpg"
+    },
+    {
+      "title": "Phylos Galaxy",
+      "copy": "Ported jQuery code to React for three.js visualization.",
+      "image": "../images/phylos-galaxy.png",
+      "url": "https://phylos.bio"
+    },
+    {
+      "title": "Closest Genetic Relatives",
+      "copy": "Built d3 visualization of cannabis strain relationships.",
+      "image": "../images/closest-genetic-relatives.png",
+      "url": "https://phylos.bio/sims/variety/PGT-102338/7-points-oregon/sweet-relief-og"
+    },
+    {
+      "title": "Southern Poverty Law Center",
+      "copy": "Built Views and migrated content for Webby-winning SPLC Drupal site.",
+      "image": "../images/splc.png",
+      "url": "https://www.splcenter.org/"
+    },
+    {
+      "title": "Intel Social Media Cart",
+      "copy": "Monitored hashtag to trigger a microcontroller to blow bubbles increment an LED light meter.",
+      "image": "../images/bubbles.jpg",
+      "url": "https://software.intel.com/en-us/videos/not-just-blowing-bubbles-the-intel-connect-social-media-cart"
+    },
+    {
+      "title": "Chassidic Route",
+      "copy": "Built an interactive map and graphs exploring Jewish history in Poland.",
+      "image": "../images/chassidic-route.png",
+      "url": "https://www.wmf.org/polands-chassidic-route"
+    },
+    {
+      "title": "Travel Portland",
+      "copy": "Built features for high-traffic Portland travel site.",
+      "image": "../images/travel-portland.png",
+      "url": "https://www.travelportland.com/"
+    },
+    {
+      "title": "Relief International",
+      "copy": "Built Views and migrated content for Relief International Drupal site.",
+      "image": "../images/ri.png",
+      "url": "https://www.ri.org/"
+    },
+    {
+      "title": "Postano",
+      "copy": "Built features for a visual aggregator of social media content.",
+      "image": "../images/postano.jpg",
+      "url": "https://www.sprinklr.com/display/"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+html {
+    --coral: #F47F4D;
+    --verdigris: #5CB8B2;
+    --raisin-black: #1B1E29;
+    --old-rose: #C46D74;
+    --jet: #38383F;
+    --cadet-gray: #9AA09D;
+    --cinereous: #92807D;
+    --hunyadi-yellow: #FFB54A;
+    --french-gray: #C7BFC2;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
