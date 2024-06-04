@@ -1,7 +1,11 @@
 {
   "devDependencies": {
     "@open-wc/eslint-config": "^12.0.3",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
     "@web/dev-server": "^0.4.5",
+    "@web/rollup-plugin-copy": "^0.5.1",
+    "@web/rollup-plugin-html": "^2.3.0",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "husky": "^9.0.11",
@@ -22,13 +26,18 @@
     "format:prettier": "prettier \"**/*.js\" --write --ignore-path .gitignore"
   },
   "eslintConfig": {
-    "extends": ["@open-wc/eslint-config"]
+    "extends": [
+      "@open-wc/eslint-config"
+    ]
   },
   "prettier": {
     "singleQuote": true,
     "arrowParens": "avoid"
   },
   "lint-staged": {
-    "**/*.js": "prettier --write --ignore-unknown"
+    "**/*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   }
 }
