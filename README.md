@@ -1,6 +1,8 @@
 # light portfolio
 
-My portfolio site, trying (and loving!) lit-element web components and minimal bells/whistles.
+My portfolio site, trying (and loving!) lit-element web components and minimal bells/whistles. 
+
+Live at: https://jami.me/
 
 ## Develop
 
