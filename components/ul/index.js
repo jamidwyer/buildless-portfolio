@@ -40,7 +40,6 @@ export class Ul extends LitElement {
     }
   `;
 
-
   render() {
     if (!this.items) {
       return html`<slot name="loading">Loading...</slot>`;
@@ -50,9 +49,10 @@ export class Ul extends LitElement {
       return html`<slot name="empty">No Items Found</slot>`;
     }
     return html`
-    <ul>
-      ${this.items.map((item) =>
-        html`
+      <ul>
+        ${this.items.map(
+          item =>
+            html`
           <li>
             <figure>
               <picture>
@@ -68,10 +68,10 @@ export class Ul extends LitElement {
                 <p>${item.copy}</p>
               </figcaption>
             </figure>
-          </li>`
-    )}
-    </ul>
-  `;
+          </li>`,
+        )}
+      </ul>
+    `;
   }
 
   async firstUpdated() {
@@ -79,7 +79,7 @@ export class Ul extends LitElement {
   }
 
   async fetchData() {
-    const data = await fetch(this.src).then((res) => res.json());
+    const data = await fetch(this.src).then(res => res.json());
     this.items = data.gallery ?? [];
     this.requestUpdate();
   }

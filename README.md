@@ -1,4 +1,5 @@
 # buildless portfolio
+
 My portfolio site, built with lit-element, css, html, JS, and not much else!
 
 ## Develop
@@ -11,7 +12,9 @@ http://localhost:8000/
 
 ## Roadmap
 
-- add to github
+- rollup https://modern-web.dev/docs/building/rollup-plugin-html/
+- deploy to s3
+- add media queries where things look weird
 - break ul into smaller components
 - generalize item fields
 - card to own component
@@ -21,7 +24,6 @@ http://localhost:8000/
 - lint
 - lit-element component library
 - deploy to netlify?
-- deploy to s3
 - deploy to cloudflare?
 - deploy to eks (as an exercise)?
 - typescript

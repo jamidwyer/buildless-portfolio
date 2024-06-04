@@ -2,7 +2,7 @@ import { css, html, LitElement } from 'lit';
 
 export class PfImg extends LitElement {
   static properties = {
-    src:  { type: String },
+    src: { type: String },
   };
 
   static styles = css`
@@ -19,10 +19,16 @@ export class PfImg extends LitElement {
     this.href = '';
     this.text = '';
   }
-  text
+  text;
   render() {
     return html`
-    <img decoding="async" loading="lazy" src=${this.src} alt=${this.alt} srcSet="${this.src} 750w, ${this.src} 978w" />
+      <img
+        decoding="async"
+        loading="lazy"
+        src=${this.src}
+        alt=${this.alt}
+        srcset="${this.src} 750w, ${this.src} 978w"
+      />
     `;
   }
 }

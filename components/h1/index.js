@@ -22,9 +22,7 @@ export class PfH1 extends LitElement {
   }
 
   render() {
-    return html`
-    <h1>${this.text}</h1>
-    `;
+    return html` <h1>${this.text}</h1> `;
   }
 }
 customElements.define('pf-h1', PfH1);

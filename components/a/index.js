@@ -2,7 +2,7 @@ import { css, html, LitElement } from 'lit';
 
 export class PfA extends LitElement {
   static properties = {
-    href:  { type: String },
+    href: { type: String },
     text: { type: String },
   };
 
@@ -14,7 +14,7 @@ export class PfA extends LitElement {
       text-decoration-color: var(--verdigris);
     }
     a:visited {
-      color: var(--raisin-black)
+      color: var(--raisin-black);
     }
   `;
 
@@ -25,9 +25,7 @@ export class PfA extends LitElement {
   }
 
   render() {
-    return html`
-    <a href=${this.href}>${this.text}</a>
-    `;
+    return html` <a href=${this.href}>${this.text}</a> `;
   }
 }
 customElements.define('pf-a', PfA);
