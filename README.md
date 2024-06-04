@@ -13,6 +13,8 @@ http://localhost:8000/
 ## Roadmap
 
 - add media queries where things look weird
+- axe
+- optimize
 - break ul into smaller components
 - generalize item fields
 - card to own component

@@ -6,14 +6,11 @@
     for = "/*"
     [headers.values]
       	cache-control = '''
-    	max-age=0,
-    	s-max-age=0,
-	    must-revalidate'''
+    	max-age=604800,
+    	s-max-age=604800'''
       	cdn-cache-control = '''
-    	max-age=0,
-    	s-max-age=0,
-	    must-revalidate'''
+    	max-age=604800,
+    	s-max-age=604800'''
         netlify-cdn-cache-control = '''
-    	max-age=0,
-    	s-max-age=0,
-	    must-revalidate'''
+    	max-age=604800,
+    	s-max-age=604800'''
