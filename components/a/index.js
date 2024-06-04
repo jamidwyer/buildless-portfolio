@@ -9,7 +9,7 @@ export class PfA extends LitElement {
   static styles = css`
     a {
       display: block;
-      font-size: 2rem;
+      font-size: 1.6rem;
       font-weight: 500;
       text-decoration-color: var(--verdigris);
     }

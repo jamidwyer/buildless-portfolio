@@ -36,7 +36,10 @@ export class Ul extends LitElement {
       width: 100%;
     }
     figcaption {
-      padding: 0.5rem;
+      padding: 1rem;
+    }
+    p {
+      color: rgb(117, 117, 117);
     }
   `;
 
