@@ -1,18 +1,12 @@
 import { css, html, LitElement } from 'lit';
 
 export class Layout extends LitElement {
-  constructor() {
-    super();
-  }
-
   static styles = css`
     :host {
       margin: 0;
       padding: 0;
       color: var(--raisin-black);
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica,
-        Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol';
+      font-family: 'Segoe UI', Helvetica, Arial, sans-serif, 'Segoe UI Symbol';
       font-size: 16px;
     }
   `;
