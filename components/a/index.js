@@ -8,6 +8,7 @@ export class PfA extends LitElement {
 
   static styles = css`
     a {
+      color: var(--raisin-black);
       display: block;
       font-size: 1.6rem;
       font-weight: 500;
