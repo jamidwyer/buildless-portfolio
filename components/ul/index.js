@@ -10,10 +10,6 @@ export class Ul extends LitElement {
     items: { type: Object },
   };
 
-  constructor() {
-    super();
-  }
-
   static styles = css`
     ul {
       list-style: none;
@@ -24,11 +20,12 @@ export class Ul extends LitElement {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
+      justify-content: center;
     }
     li {
       flex: 1 1 0px;
-      min-width: 360px;
-      max-width: 680px;
+      min-width: 400px;
+      max-width: 840px;
     }
     figure {
       padding: 0;
@@ -41,6 +38,12 @@ export class Ul extends LitElement {
     p {
       color: rgb(117, 117, 117);
     }
+    @media screen and (max-width: 820px) {
+      li {
+        width: 100%;
+      }
+    }
+}
   `;
 
   render() {
@@ -55,23 +58,26 @@ export class Ul extends LitElement {
       <ul>
         ${this.items.map(
           item =>
-            html`
-          <li>
-            <figure>
-              <picture>
-                <source srcSet=${item.image} 410w"
-                  sizes="100vw" />
-                <pf-img
-                  sizes="100vw" decoding="async" loading="lazy"
-                  src=${item.image}
-                  srcSet=${item.image} 410w" alt=${item.title} />
-              </picture>
-              <figcaption>
-                <pf-a href=${item.url} text=${item.title}></pf-a>
-                <p>${item.copy}</p>
-              </figcaption>
-            </figure>
-          </li>`,
+            html` <li>
+              <figure>
+                <picture>
+                  <source srcset="${item.image} 410w" sizes="100vw" />
+                  <pf-img
+                    sizes="100vw"
+                    decoding="async"
+                    loading="lazy"
+                    src=${item.image}
+                    srcSet="${item.image} 410w"
+                    alt=${item.title}
+                  >
+                  </pf-img>
+                </picture>
+                <figcaption>
+                  <pf-a href=${item.url} text=${item.title}></pf-a>
+                  <p>${item.copy}</p>
+                </figcaption>
+              </figure>
+            </li>`,
         )}
       </ul>
     `;
