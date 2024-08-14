@@ -6,7 +6,7 @@ Live at: https://jami.me/
 
 ## Develop
 
-`npm i --save-dev @web/dev-server`
+`npm i`
 
 `npx web-dev-server --open --node-resolve`
 
@@ -21,10 +21,12 @@ Merge.
 
 ## Roadmap
 
-- favicon
 - add media queries where things look weird
 - axe
+- check seo
+- check browsers
 - optimize
+- funner font
 - break ul into smaller components
 - generalize item fields
 - card to own component
@@ -38,3 +40,4 @@ Merge.
 - optimize srcset
 - tests
 - dark mode
+- help @web/dev-server with dependency updates
